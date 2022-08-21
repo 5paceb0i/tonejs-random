@@ -16,7 +16,7 @@ const compressor = new Tone.Compressor({
     threshold : -13 ,
     release : 0.05 ,
     attack : 0.002 ,
-    knee : 30
+    knee : 24
 });
 const chorus = new Tone.Chorus();
 
